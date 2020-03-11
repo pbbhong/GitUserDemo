@@ -1,11 +1,10 @@
-# Products - Android Architecture Components
+#Git User List App - Android Architecture Components
 
-This is a sample Android application I developed in order to practice Android Architecture Components. It uses the public [Datakick API](https://www.datakick.org/api). [This article](https://proandroiddev.com/constant-loading-sores-the-eyes-732da88f5ba) I wrote uses this project as a demo.
+This is a demo Android application in order to practice Android Architecture Components. It uses the api for getting the github user info (https://developer.github.com/v3/users. I uses this project as a demo for the Android Kotlin MVVM architecture.
 
+##Demo
 
-## Demo
-
-![alt text](https://github.com/husaynhakeem/Products-Android-Architecture-Components/blob/master/app/src/art/products_art.png)
+This demo will list all the users on Github.
 
 
 ## Libraries used in this project
@@ -21,6 +20,7 @@ This is a sample Android application I developed in order to practice Android Ar
 - [JUnit and Mockito](https://developer.android.com/training/testing/unit-testing/local-unit-tests.html)
 
 
-## Project architecture
+## Architecture
+https://miro.medium.com/max/1440/1*-yY0l4XD3kLcZz0rO1sfRA.png
 
-![alt text](https://github.com/husaynhakeem/Products-Android-Architecture-Components/blob/master/app/src/art/architecture.png)
+The App will use webservice to get the git users data. It will pass the data to the list and store the data to the database. If internet to connect to the Git server, it will retrieve the data from database and display the data to the list.
