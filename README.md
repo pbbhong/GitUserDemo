@@ -1,6 +1,6 @@
 #Git User List App - Android Architecture Components
 
-This is a demo Android application in order to practice Android Architecture Components. It uses the api for getting the github user info (https://developer.github.com/v3/users. I uses this project as a demo for the Android Kotlin MVVM architecture.
+This is a demo Android application in order to practice Android Architecture Components. It uses the api for getting the github user info (https://developer.github.com/v3/users). I uses this project as a demo for the Android Kotlin MVVM architecture.
 
 ##Demo
 
